@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>ShiFuMi</title>
+</head>
+
+<body>
+    <!-- Images du haut -->
+    <img id="logoLaManu" src="assets/img/Logo La Manu.svg" alt="Logo de La Manu">
+    <img id="logoShiFuMi" src="assets/img/Logo ShiFuMi.png" alt="Logo de ShiFuMi">
+    <div id="icons">
+        <i class="fa-solid fa-hand-back-fist"></i> <i class="fa-solid fa-hand"></i> <i
+            class="fa-solid fa-hand-scissors"></i>
+    </div>
+    <!-- Texte d'intro' -->
+    <div id="textIntro">
+        <p>Bienvenue au jeu en ligne du ShiFuMi, où vous pouvez défier l'ordinateur dans une bataille de pierre, feuille
+            et ciseaux.</p>
+        <p>Le principe est simple : la pierre écrase les ciseaux, la feuille enveloppe la pierre et les ciseaux coupent
+            la feuille. Qui l'emportera entre l'Humain et la machine ?</p>
+    </div>
+    <!-- Textee « À vous de jouer » -->
+    <p id="textPlay">À vous de jouer !</p>
+    <!-- Boutons pour les choix -->
+    <div id="choices">
+        <button id="rock" class="choiceButton"><i class="fas fa-hand-rock"></i></button>
+        <button id="paper" class="choiceButton"><i class="fas fa-hand-paper"></i></button>
+        <button id="scissors" class="choiceButton"><i class="fas fa-hand-scissors"></i></button>
+    </div>
+    <!-- Bouton pour démarrer le jeu -->
+    <button id="playButton">SHIFUMI !</button>
+    <!-- Code pour le score -->
+    <div id="scores">
+        <span id="playerScore">Joueur : 0</span>
+        <span id="computerScore">Ordinateur : 0</span>
+        <span id="winPercentage">Pourcentage de victoire : 0%</span>
+    </div>
+    <!-- Code pour le résultat -->
+    <div id="result"></div>
+    <!-- Scripts pour JS et Font Awesome -->
+    <script src="https://kit.fontawesome.com/22be1acdab.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

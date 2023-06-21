@@ -1,0 +1,132 @@
+body {
+    background-color: #33058c;
+    color: #feffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Code pour les logos */
+
+#logoLaManu {
+    max-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+#logoShiFuMi {
+    display: flex;
+    margin: auto;
+    max-height: 100px;
+    padding-top: 60px;
+}
+
+#icons {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Code pour le texte */
+
+#textPlay {
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 40px;
+    transform: skewY(-10deg); 
+    /* transform skewY permet de faire tourner le texte/l'image de plusieurs degrés */
+    color: #15c5ae;
+    text-shadow: 3px 3px 0px #ba4097;
+}
+
+/* Code pour les boutons de choix */
+
+#choices {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.choiceButton {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.choiceButton i {
+    color: #feffff;
+    font-size: 24px;
+}
+
+.choiceButton.selected {
+    border: 4px solid #feffff;
+}
+
+#rock {
+    background-color: #139dd4;
+}
+
+#paper {
+    background-color: #15c5ae;
+}
+
+#scissors {
+    background-color: #ba4097;
+}
+
+.choiceButton:hover {
+    transform: scale(1.2);
+}
+
+.choiceButton:hover i {
+    color: #fff;
+}
+
+/* Code pour le bouton de jeu */
+
+#playButton {
+    margin-top: 20px;
+    background-color: #feffff;
+    color: #33058c;
+    border-color: #feffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#playButton:hover {
+    transform: scale(1.2);
+}
+
+/* Code pour le score */
+
+#scores {
+    margin-top: 20px;
+}
+
+#scores span {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Code pour le résultat */
+
+.gameResult {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.winner {
+    color: #4caf50;
+}
+
+.lost {
+    color: #f44336;
+}
